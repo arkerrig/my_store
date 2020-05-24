@@ -1,0 +1,44 @@
+<% @body_id = 'home' %>
+
+<div class="homepage-hero-image mb-3 position-relative">
+  <img class="lazyload hero-image position-absolute"
+    data-src="<%= asset_path('homepage/main_banner.jpg') %>"
+    data-srcset="<%= image_source_set('homepage/main_banner') %>"
+    alt="<%= Spree.t('homepage.cbd_vape')%>" />
+
+  <div class="hero-content">
+    <div class="homepage-hero-image-text mb-2 mx-auto pb-3 pb-md-4">
+      <%= Spree.t('homepage.cbd_vape') %>
+    </div>
+    <div>
+      <%= link_to Spree.t('homepage.shop_now'), spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+
+      <div class="homepage-taxon-box mb-3">
+        <%= link_to spree.nested_taxons_path('cbd_vape') do %>
+          <img class="w-100 lazyload"
+            data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
+            alt="<%= Spree.t('homepage.cbd_vape') %>" />
+
+          <div class="homepage-taxon-box-text">
+            <h3><%= Spree.t('homepage.cbd_vape') %></h3>
+          </div>
+        <% end %>
+      </div>
+
+   
+
+    </div>
+
+
+  </div>
+</div>
+
+
