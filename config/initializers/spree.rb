@@ -14,6 +14,20 @@ Spree.config do |config|
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
 
+  config.use_s3 = true
+  config.s3_bucket = 'lemontreeimages'
+  config.s3_access_key = "AKIAJTZEYTDMG5UOTBZQ"
+  config.s3_secret = "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"
+
+
+
+  Access Key ID:
+  
+  Secret Access Key:
+  
+
+
+
   config.admin_interface_logo = 'logo.png'
   config.logo = 'logo.png'
 
