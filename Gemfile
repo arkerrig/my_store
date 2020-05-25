@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use aws for storage
+gem "aws-sdk-s3", require: false
+
 # Add Heroku 12 Factor gem
 gem 'rails_12factor', group: :production
 
