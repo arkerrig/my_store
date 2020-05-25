@@ -24,4 +24,4 @@ test:
 
 production:
   <<: *default
-  database: database: my_shop_db_production
+  database: my_shop_db_production

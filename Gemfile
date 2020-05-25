@@ -31,6 +31,7 @@ gem 'rails_12factor', group: :production
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~>4.1'
 gem 'spree_gateway', '~> 3.7'
+gem 'spree_avatax_official', github: 'spree-contrib/spree_avatax_official'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
