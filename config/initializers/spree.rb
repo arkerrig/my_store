@@ -15,6 +15,11 @@ Spree.config do |config|
   # config.track_inventory_levels = false
 
 
+  config.use_s3 = true
+  config.s3_bucket = 'lemontreeimages'
+  config.s3_access_key = "AKIAJTZEYTDMG5UOTBZQ"
+  config.s3_secret = "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"
+
   config.admin_interface_logo = 'logo.png'
   config.logo = 'logo.png'
 
