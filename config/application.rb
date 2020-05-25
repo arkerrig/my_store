@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+require "active_storage/engine"
+
 module MyStore
   class Application < Rails::Application
 
