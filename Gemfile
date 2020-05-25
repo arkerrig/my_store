@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.7'
 gem "aws-sdk-s3", require: false
 
 # Add Heroku 12 Factor gem
-gem 'rails_12factor', group: :production
+#gem 'rails_12factor', group: :production
 
 # Use Spree for ecomm
 gem 'spree', '~> 4.1'
