@@ -25,10 +25,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use aws for storage
-gem "aws-sdk-s3", require: false
+gem "aws-sdk-s3", require: true
 
 # Add Heroku 12 Factor gem
-#gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production
 
 # Use Spree for ecomm
 gem 'spree', '~> 4.1'
